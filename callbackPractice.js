@@ -62,7 +62,7 @@ last(names, function(lastName){
 
 
 
-/* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */
+/* NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM ---- NEXT PROBLEM */ 
 
 
 
@@ -122,24 +122,23 @@ contains(names, 'Colt', function(result){
 
 
     //Code Here for uniq
-var uniq = function (namesArray, cb) {
+var uniq = function (namesArray, cb) 
   names = names.replace(/[ ]/g,"").split(",");
   var uniqObjects = {};
   for(var i = 0; i < namesArray.length; i++) {
     uniqueObject[namesArray[i]] = null;
-
+  debugging;
   for (var key in uniqueObject0 {
       returnArray.push(key);
     }
     cb(returnArray);
   }
     uniqArr = uniqArr.join(", ");
-}
 
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
-uniq(names, function(uniqArr){
+uniq(names, function(uniqArr) {
   console.log('The new names array with all the duplicate items removed is ', uniqArr);
-});
+)};
 
 
 
